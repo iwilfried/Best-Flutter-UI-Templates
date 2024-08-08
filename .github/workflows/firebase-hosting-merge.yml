@@ -9,6 +9,10 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./best_flutter_ui_templates
+    
     steps:
       - uses: actions/checkout@v4
 
@@ -18,9 +22,6 @@ jobs:
           flutter-version: "3.22.1"
           channel: 'stable'
           cache: true
-
-      - name: Change directory
-        run: cd best_flutter_ui_templates
 
       - name: Install dependencies
         run: flutter pub get
