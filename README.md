@@ -4,6 +4,7 @@ https://flutter-ui-template1.web.app/
 
 ![qrcode](https://github.com/user-attachments/assets/b563b507-c224-4dd0-b71f-6f51c8d60c83)
 
+![qrcode](https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fflutter-ui-template1.web.app%2F&qzone=1&margin=0&size=200x200&ecc=L)
 
 # Best-Flutter-UI-Templates
 
